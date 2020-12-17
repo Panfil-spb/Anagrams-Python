@@ -32,12 +32,12 @@ def anagrams(word):
 def game(word, anagram):
     answer = ""
     while answer != word:
-        print("Ваша анаграма: " + anagram)
+        print("\nВаша анаграма: " + anagram)
         answer = input("Введите ваше слово:")
         if answer != word:
-            print("Ответ не верный!\n"
+            print("\nОтвет не верный!\n"
                   "Попробуйте еще раз.")
-    print("Поздравляю вас!"
+    print("\nПоздравляю вас!"
           "Анаграмма " + anagram + " - это " + answer)
 
 def main():
